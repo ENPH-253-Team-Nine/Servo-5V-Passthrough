@@ -1,0 +1,66 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Projects\Servo 5V Passthrough\PCB2.PcbDoc
+Date     : 2022-07-11
+Time     : 2:39:30 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Track (2790mil,2550mil)(2790mil,4124.804mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (2790mil,2550mil)(4364.804mil,2550mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (2790mil,4124.804mil)(4364.804mil,4124.804mil) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (4364.804mil,2550mil)(4364.804mil,4124.804mil) on Top Layer Dead Copper - Net Not Assigned.
+Rule Violations :4
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=25mil) (Max=25mil) (Preferred=25mil) (InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+   Violation between Width Constraint: Track (2869mil,3026mil)(2869mil,3294.67mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (2869mil,3294.67mil)(2919.33mil,3345mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (2869mil,3395.33mil)(2869mil,3772.426mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (2869mil,3395.33mil)(2919.33mil,3345mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3170mil,3823.426mil)(3175mil,3828.426mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3175mil,3828.426mil)(3425mil,3828.426mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3378mil,3315mil)(3378mil,3781.426mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3378mil,3315mil)(3417mil,3276mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3417mil,3276mil)(3621mil,3276mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3621mil,3276mil)(3675mil,3330mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (4150mil,2760mil)(4150mil,2855mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+Rule Violations :11
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 15
+Waived Violations : 0
+Time Elapsed        : 00:00:01
