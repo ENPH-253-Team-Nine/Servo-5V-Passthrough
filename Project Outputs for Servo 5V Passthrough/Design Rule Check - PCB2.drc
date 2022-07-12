@@ -1,20 +1,18 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Public\Documents\Altium\Projects\Servo 5V Passthrough\PCB2.PcbDoc
+PCB File : C:\Users\ericj\OneDrive\Documents\UBC Y2T3\Enph 253\PCBs\Servo-5V-Passthrough\PCB2.PcbDoc
 Date     : 2022-07-11
-Time     : 2:39:30 PM
+Time     : 6:13:18 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (8.661mil < 10mil) Between Pad Q1-1(3610.962mil,3004.331mil) on Multi-Layer And Pad Q1-2(3560.962mil,3004.331mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 10mil) Between Pad Q1-2(3560.962mil,3004.331mil) on Multi-Layer And Pad Q1-3(3510.962mil,3004.331mil) on Multi-Layer 
+Rule Violations :2
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Track (2790mil,2550mil)(2790mil,4124.804mil) on Top Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (2790mil,2550mil)(4364.804mil,2550mil) on Top Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (2790mil,4124.804mil)(4364.804mil,4124.804mil) on Top Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Track (4364.804mil,2550mil)(4364.804mil,4124.804mil) on Top Layer Dead Copper - Net Not Assigned.
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -23,18 +21,32 @@ Processing Rule : Width Constraint (Min=25mil) (Max=25mil) (Preferred=25mil) (In
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
-   Violation between Width Constraint: Track (2869mil,3026mil)(2869mil,3294.67mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (2869mil,3294.67mil)(2919.33mil,3345mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (2869mil,3395.33mil)(2869mil,3772.426mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (2869mil,3395.33mil)(2919.33mil,3345mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (3170mil,3823.426mil)(3175mil,3828.426mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (3175mil,3828.426mil)(3425mil,3828.426mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (3378mil,3315mil)(3378mil,3781.426mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (3378mil,3315mil)(3417mil,3276mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (3417mil,3276mil)(3621mil,3276mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (3621mil,3276mil)(3675mil,3330mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-   Violation between Width Constraint: Track (4150mil,2760mil)(4150mil,2855mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
-Rule Violations :11
+   Violation between Width Constraint: Track (3437.047mil,3180mil)(3437.047mil,3292.047mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3437.047mil,3180mil)(3447.185mil,3169.862mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3437.047mil,3292.047mil)(3475mil,3330mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3447.185mil,3169.862mil)(3470.138mil,3169.862mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3470.138mil,3169.862mil)(3560.962mil,3079.038mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3475mil,3330mil)(3475mil,3733.426mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3475mil,3733.426mil)(3570mil,3828.426mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3510.962mil,3004.331mil)(3514.088mil,3001.204mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3514.088mil,2990.154mil)(3514.088mil,3001.204mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3514.088mil,2990.154mil)(3549.242mil,2955mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3549.242mil,2955mil)(3661.499mil,2955mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3560.962mil,3004.331mil)(3560.962mil,3079.038mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3570mil,3828.426mil)(3720mil,3828.426mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3610.962mil,3004.331mil)(3610.962mil,3098.01mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3610.962mil,3098.01mil)(3692.953mil,3180mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3661.499mil,2955mil)(3746.499mil,3040mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3692.953mil,3180mil)(3800mil,3287.047mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3746.499mil,3040mil)(3900mil,3040mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3800mil,3287.047mil)(3800mil,3570mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (3800mil,3570mil)(4143.425mil,3913.425mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (4143.425mil,3913.425mil)(4200mil,3913.425mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (4200mil,3815mil)(4200mil,3913.425mil) on Top Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (4200mil,3913.425mil)(4300mil,3813.425mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (4250mil,2760mil)(4300mil,2810mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+   Violation between Width Constraint: Track (4300mil,2810mil)(4300mil,3813.425mil) on Bottom Layer Actual Width = 25mil, Target Width = 10mil
+Rule Violations :25
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
@@ -46,7 +58,9 @@ Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 10mil) Between Pad Q1-1(3610.962mil,3004.331mil) on Multi-Layer And Pad Q1-2(3560.962mil,3004.331mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 10mil) Between Pad Q1-2(3560.962mil,3004.331mil) on Multi-Layer And Pad Q1-3(3510.962mil,3004.331mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+Rule Violations :2
 
 Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
 Rule Violations :0
@@ -61,6 +75,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 15
+Violations Detected : 29
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
